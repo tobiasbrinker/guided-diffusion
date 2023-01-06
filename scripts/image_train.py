@@ -14,6 +14,9 @@ from guided_diffusion.script_util import (
     add_dict_to_argparser,
 )
 from guided_diffusion.train_util import TrainLoop
+import os
+os.environ["CUDA_VISIBLE_DEVICES"]="1"
+
 
 
 def main():
